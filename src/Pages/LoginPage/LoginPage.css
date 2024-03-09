@@ -1,0 +1,14 @@
+.login{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 450px;
+    padding: 30px;
+    width: 40%;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px
+}
+.login h1 {
+    padding-bottom: 30px;
+    font-size: 55px;   
+}

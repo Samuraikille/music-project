@@ -1,0 +1,19 @@
+.social {
+    border: 2px solid white;
+    border-radius:50%; 
+    width: 55px;
+    height: 55px;
+    padding-top: 0px;
+    
+}
+.icon {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.social img {
+    margin-top: 6px;
+    margin-left: 0px;
+    ;
+}
