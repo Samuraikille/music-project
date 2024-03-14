@@ -1,0 +1,28 @@
+.MixElem {
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.MixElem:hover {
+    background-color:rgba(123, 118, 112, 0.347);
+    border-radius:20px;
+    
+}
+.MixElem img{
+   width: 200px; 
+   height: 200px;
+}
+.MixElem .music__description{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.MixElem .main__text{
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.MixElem .secondary__text{
+    color: gray;
+    font-size: 18px;
+}

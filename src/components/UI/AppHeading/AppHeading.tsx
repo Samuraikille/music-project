@@ -2,6 +2,7 @@ interface IAppHeading {
     headingText: string;
     headingType: string;
     className?: string;
+    isActive?: boolean
   }
   
   export const AppHeading = ({ headingText, headingType }: IAppHeading) => {

@@ -1,0 +1,14 @@
+.Elem{
+    display: flex;
+    gap: 10px;
+}
+.music__description{
+    margin-top: 30px;
+}
+.main__text{
+    font-size: 18px;
+}
+.secondary__text{
+    color: gray;
+    font-size: 15px;
+}

@@ -1,0 +1,14 @@
+.Page{
+    position: fixed;
+    top: 10px;
+    left: 240px;
+    background-color: black;
+    border-radius: 20px;
+    width: 85%;
+    height: 100%;
+}
+
+.Page h1{
+    padding-left: 50px;
+    padding-top: 30px;
+} 

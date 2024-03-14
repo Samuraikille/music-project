@@ -3,6 +3,8 @@ import { LoginPage } from "./Pages/LoginPage/LoginPage"
 import { MainPage } from "./Pages/MainPage/MainPage"
 import { ProfilePage } from "./Pages/ProfilePage/ProfilePage"
 import "./App.css"
+import { RegistrationPage } from "./Pages/RegistrationPage/RegistrationPage"
+import { SearchPage } from "./Pages/SearchPage/SearchPage"
 
 const routerConfig = createBrowserRouter([
   {
@@ -19,8 +21,12 @@ const routerConfig = createBrowserRouter([
   },
   {
     path: "/registration",
-    element: <LoginPage/>
+    element: <RegistrationPage/>
   },
+  {
+    path: "/search",
+    element: <SearchPage/>
+  }
 ])
 function App() {
   

@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import "./RegistrationInfo.css"
+import "./LoginInfo.css"
 
-interface IRegistrationInfo {
+interface ILoginInfo {
     linkPath: string;
   }
 
-export const RegistrationInfo = ({linkPath}: IRegistrationInfo) => {
+export const LoginInfo = ({linkPath}: ILoginInfo) => {
     return (
-        <div className="Registration">
-            <span>У вас нет аккаунта? <Link to={linkPath}>Зарегистрироваться</Link></span>
+        <div className="Login">
+            <span>Уже есть аккаунт? <Link to={linkPath}>Войдите в него</Link></span>
             <div className="icon">
                 <a href="#" className="social">
                     <img src="./img/google.png" alt="google" />

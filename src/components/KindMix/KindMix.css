@@ -1,0 +1,10 @@
+ h2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 27px;
+    font-weight: 800;
+}
+.MixBlock{
+    display: flex;
+    gap: 10px  
+}
