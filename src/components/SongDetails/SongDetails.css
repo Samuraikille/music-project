@@ -1,4 +1,4 @@
-.Page{
+.details {
     position: fixed;
     top: 10px;
     left: 240px;
@@ -9,10 +9,3 @@
     padding-left: -20px; 
     overflow: auto;
 }
-.welcome {
-    display: flex;
-}
-.Page h1{
-    padding-left: 50px;
-    padding-top: 40px;
-} 

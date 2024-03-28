@@ -1,0 +1,45 @@
+.info{
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.music-details {
+    display: flex;
+    gap: 25px;
+}
+.music-details img {
+    width: 250px;
+    height: 250px;
+}
+.music-details .song-name{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+.music-details .artist-name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+hr{
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+    width: 90%;
+	border-top: 1px solid white;
+}
+.info h3 {
+    font-size:30px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.info .lyrics-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    width: 500px;
+    margin-left: 270px;
+}

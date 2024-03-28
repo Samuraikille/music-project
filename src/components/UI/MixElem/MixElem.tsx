@@ -1,9 +1,9 @@
 import "./MixElem.css"
 interface IMixBlock {
-  imgSource: string;
-  altText: string;
-  mainText: string;
-  secondaryText: string;
+  imgSource: string | undefined;
+  altText: string | undefined;
+  mainText: string | undefined;
+  secondaryText?: string | undefined;
 }
 
 export const MixElem = ({
